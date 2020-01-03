@@ -8,6 +8,7 @@ html {
 
 body {
   text-align: center;
+  background-color: tan;
 }
 
 .gallery-parent {
@@ -21,37 +22,47 @@ body {
 }
 
 .pd6-photo {
-  height: 20rem;
+  height: 40rem;
   position: absolute;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
 
-.panda {
-  top: 10rem;
-  left: 15%;
+.fatcat {
+  top: 7rem;
+  right: 80%;
 }
 
-.car {
+.kid {
   top: 2rem;
-  right: 0;
+  left: 10%;
 }
 
-.mustard {
+.fatdog {
   top: 5rem;
-  left: 40%;
+  left: 60%;
+}
+
+.whale {
+  top: 35rem;
+  right: 20%;
+}
+
+.pigeon {
+  top: 40rem;
+  left: 50%;
 }
 
 .pd6-photo:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
-  outline: 1rem solid #222;
+  outline: 3px solid #222;
   z-index: 2;
 }
 
 .gallery:hover .pd6-photo:not(:hover) {
-  -webkit-transform: scale(0.5);
-          transform: scale(0.5);
+  -webkit-transform: scale(0.4);
+          transform: scale(0.4);
   opacity: 0.3;
 }
 /*# sourceMappingURL=style.css.map */
