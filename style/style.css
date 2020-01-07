@@ -53,6 +53,8 @@ body {
 .pigeon {
   top: 40rem;
   left: 50%;
+  -webkit-filter: blur(1rem);
+          filter: blur(1rem);
 }
 
 .fatcat:hover {
@@ -62,8 +64,10 @@ body {
 }
 
 .kid:hover {
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
+  -webkit-box-shadow: 2px 3px 5px 10px white;
+          box-shadow: 2px 3px 5px 10px white;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   outline: 3px solid #222;
 }
 
@@ -74,6 +78,26 @@ body {
           transform: scale(1.1);
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
+  outline: 3px solid #222;
+}
+
+.whale:hover {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  outline: 3px solid #222;
+}
+
+.pigeon:hover {
+  -webkit-filter: blur(0rem);
+          filter: blur(0rem);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
   outline: 3px solid #222;
 }
 
