@@ -22,20 +22,20 @@ body {
 }
 
 .pd6-photo {
-  height: 40rem;
+  height: 20rem;
   position: absolute;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
 
 .fatcat {
-  top: 7rem;
-  right: 80%;
+  top: 5rem;
+  right: 39rem;
 }
 
 .kid {
-  top: 2rem;
-  left: 10%;
+  top: 5rem;
+  left: 16%;
 }
 
 .fatdog {
@@ -46,13 +46,13 @@ body {
 }
 
 .whale {
-  top: 35rem;
-  right: 20%;
+  top: 28rem;
+  right: 67%;
 }
 
 .pigeon {
-  top: 40rem;
-  left: 50%;
+  top: 28rem;
+  left: 48%;
   -webkit-filter: blur(1rem);
           filter: blur(1rem);
 }
@@ -107,8 +107,29 @@ body {
   opacity: 0.3;
 }
 
-.button {
-  background-color: red;
-  height: 10rem;
+.Button {
+  position: absolute;
+  top: 60%;
+  -webkit-box-shadow: 3px 4px 0px 0px #8a2a21;
+          box-shadow: 3px 4px 0px 0px #8a2a21;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #c62d1f), to(#f24437));
+  background: linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+  background-color: #c62d1f;
+  border-radius: 18px;
+  border: 1px solid #d02718;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 27px;
+  padding: 11px 33px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #810e05;
+}
+
+.Button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #f24437), to(#c62d1f));
+  background: linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+  background-color: #f24437;
 }
 /*# sourceMappingURL=style.css.map */
