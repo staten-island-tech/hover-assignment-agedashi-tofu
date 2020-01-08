@@ -106,4 +106,9 @@ body {
           transform: scale(0.4);
   opacity: 0.3;
 }
+
+.button {
+  background-color: red;
+  height: 10rem;
+}
 /*# sourceMappingURL=style.css.map */
